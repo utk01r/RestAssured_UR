@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.urqa.JiraRestAssured.JiraProcess">
+        <methods>
+          <include name="getAuthentication"/>
+          <include name="getProperty"/>
+          <include name="updateProject"/>
+          <include name="deleteProject"/>
+          <include name="createProject"/>
+        </methods>
+      </class> <!-- com.urqa.JiraRestAssured.JiraProcess -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
